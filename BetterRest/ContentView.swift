@@ -74,7 +74,7 @@ struct ContentView: View {
                 }
                 
                 Section(header: Text("Recommended bedtime")) {
-                    Text("LoL")
+                    Text("\(alertMsg)")
                         .font(.headline)
                 }
             }
